@@ -11,12 +11,13 @@ public class User {
 	  public int age;
 	  public String gender;
 	  public String occupation;
+	  public int zip;
 	  public Long id;
 	
 	
 	
 	
-	  public User(String fname, String lname, int age, String gender,String occupation , Long id)
+	  public User(Long id,String fname, String lname, int age, String gender,String occupation ,int zip)
 	  {
 	    this.fname= fname;
 	    this.lname = lname;
@@ -24,11 +25,12 @@ public class User {
 	    this.gender = gender;
 	    this.occupation = occupation;
 	    this.id = id;
+	    this.zip = zip;
 	  }
 
 	  public int hashCode()  
 	  {  
-	     return Objects.hashCode(this.fname, this.lname, this.age, this.gender,this.occupation,this.id);  
+	     return Objects.hashCode(this.fname, this.lname, this.age, this.gender,this.occupation,this.id,this.zip);  
 	  }
 	  
 	
@@ -40,6 +42,7 @@ public class User {
 	                               .addValue(gender)
 	                               .addValue(occupation)
 	                               .addValue(id)
+	                               .addValue(zip)
 	                               .toString();
 	  }
 	

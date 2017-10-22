@@ -7,13 +7,13 @@ import com.google.common.base.Objects;
 public class Rating {
 
 	
-	public int userid;
+	public Long userid;
 	public int itemid;
 	public int rating;
 	public int timestamp;
 	
 	
-	public Rating(int userid,int itemid,int rating,int timestamp)
+	public Rating(Long userid,int itemid,int rating,int timestamp)
 	{
 		this.userid = userid;
 		this.itemid = itemid;

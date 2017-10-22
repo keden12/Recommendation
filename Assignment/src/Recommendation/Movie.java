@@ -8,14 +8,14 @@ import static com.google.common.base.MoreObjects.toStringHelper;
 public class Movie {
 
 	
-	  public int movieid;
+	  public Long movieid;
 	  public String title;
 	  public String releasedate;
 	  public String url;
 	  public int genre[] = new int[19];
 	  
 	
- public Movie(int movieid,String title,String releasedate,String url, int[] genre)
+ public Movie(Long movieid,String title,String releasedate,String url, int[] genre)
  {
 	 this.movieid = movieid;
 	 this.title = title;
