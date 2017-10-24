@@ -1,18 +1,14 @@
 package Recommendation;
 
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileReader;
-import java.io.FileReader;
-import java.io.FileReader;
 
-import models.User;
+import utils.Serializer;
+import values.Movie;
+import values.Rating;
+import values.User;
+
 
 
 
@@ -20,18 +16,30 @@ import models.User;
 
 
 public class RecommendationAPI {
-
+	
+  private Serializer serializer;
   private Map<Long, User> users = new HashMap<>();
   private Map<Long, Movie> movies = new HashMap<>();
   private Map<Long, Rating> ratings = new HashMap<>();
-
+  private Map<String, Movie> movietitle = new HashMap<>();
   
-  
-  public Movie addMovie(Long movieid,String title,String releasedate,String url, int[] genre)
+  public RecommendationAPI()
   {
 	  
-	 Movie movie = new Movie(movieid,title,releasedate,url,genre);
-	 movies.put(movieid, movie);
+  }
+  
+  public RecommendationAPI(Serializer serializer)
+  {
+	 this.serializer = serializer; 
+  }
+  
+  
+  public Movie addMovie(String title,String day,String month,String year,String url, int[] genre)
+  {
+	  
+	 Movie movie = new Movie(title,day,month,year,url,genre);
+	 movies.put(movie.movieid, movie);
+	 movietitle.put(title,movie);
 	 return movie;
 	  
   }
@@ -45,17 +53,19 @@ public class RecommendationAPI {
   }
   
 
-  public User addUser(Long id,String firstName, String lastName, int age, String gender,String occupation,int zip) 
+  public User addUser(String firstName, String lastName, int age, String gender,String occupation,int zip) 
   {
-    User user = new User (id,firstName, lastName, age, gender,occupation,zip);
-    users.put(id, user);
+    User user = new User (firstName, lastName, age, gender,occupation,zip);
+    users.put(user.id, user);
     return user;
   }
   
   
   public void removeUser(Long id) 
   {
-    users.remove(id);
+	   users.remove(id);
+	  
+	  
   }
 
   public Movie getMovie(Long movieid) 
@@ -71,34 +81,40 @@ public class RecommendationAPI {
   public Movie getMoviesByTitle(String title)
   {
 	  
+	  return movietitle.get(title);
+ 
+  }
+  public Movie getMoviesByYear(String title)
+  {
 	  
-	  
-	  
+	  return movietitle.get(title);
+ 
   }
   
   
   
-  
-  
-public void load() throws IOException
+
+@SuppressWarnings("unchecked")
+public void load() throws Exception
 {
 	
-	serializer
-	.read();
-	activitiesIndex
-	 = (Map<Long, Activity>) 
-	serializer
-	.pop();
-	emailIndex
-	      = (Map<String, User>)   
-	serializer
-	.pop();
-	userIndex
-	       = (Map<Long, User>)     
-	serializer
-	.pop();
+	serializer.read();
+	users = (Map<Long, User>) serializer.pop();
+	movies  = (Map<Long, Movie>) serializer.pop();
+	ratings = (Map<Long, Rating>) serializer.pop();
 
 }
+
+void store() throws Exception
+{
+	serializer.push(users);
+	serializer.push(movies);
+	serializer.push(ratings);
+	serializer.write();
+
+}
+
+
 
 
 
