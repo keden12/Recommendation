@@ -12,7 +12,7 @@ import static com.google.common.base.MoreObjects.toStringHelper;
 
 public class User {
       
-	 static Long   counter = 0l;
+	public static Long counter = 0l;
 	
 	
 	  public String fname;
@@ -23,7 +23,7 @@ public class User {
 	  public int zip;
 	  public Long id;
 	
-	  public Map<Long, Rating> ratings = new HashMap<>();
+	  public Map<Long, Rating> ratingsUser = new HashMap<>();
 	
 	
 	  public User(String fname, String lname, int age, String gender,String occupation ,int zip)

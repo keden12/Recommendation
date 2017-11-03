@@ -11,13 +11,13 @@ public class Rating {
 
 	
 	public Long userid;
-	public int itemid;
+	public Long itemid;
 	public int rating;
 	public int timestamp;
 	
-	 public Map<Long, User> users = new HashMap<>();
+	 public Map<Long, User> usersRatings = new HashMap<>();
 	
-	public Rating(Long userid,int itemid,int rating,int timestamp)
+	public Rating(Long userid,Long itemid,int rating,int timestamp)
 	{
 		this.userid = userid;
 		this.itemid = itemid;

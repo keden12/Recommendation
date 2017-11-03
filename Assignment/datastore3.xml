@@ -1,0 +1,1262 @@
+<object-stream>
+  <java.util.Stack serialization="custom">
+    <unserializable-parents />
+    <vector>
+      <default>
+        <capacityIncrement>0</capacityIncrement>
+        <elementCount>5</elementCount>
+        <elementData>
+          <long>64</long>
+          <long>62</long>
+          <map>
+            <entry>
+              <long>0</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>0</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>1</long>
+              <values.Rating>
+                <userid>1</userid>
+                <itemid>10</itemid>
+                <rating>3</rating>
+                <timestamp>887431883</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>2</long>
+              <values.Rating>
+                <userid>2</userid>
+                <itemid>10</itemid>
+                <rating>5</rating>
+                <timestamp>888552084</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>3</long>
+              
+            </entry>
+            <entry>
+              <long>4</long>
+              <values.Rating>
+                <userid>4</userid>
+                <itemid>8</itemid>
+                <rating>3</rating>
+                <timestamp>892001445</timestamp>
+                <usersRatings />
+              </values.Rating>
+            <values.Rating>
+                <userid>3</userid>
+                <itemid>8</itemid>
+                <rating>5</rating>
+                <timestamp>889237455</timestamp>
+                <usersRatings />
+              </values.Rating></entry>
+            <entry>
+              <long>5</long>
+              <values.Rating>
+                <userid>5</userid>
+                <itemid>9</itemid>
+                <rating>-5</rating>
+                <timestamp>878844423</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>14</long>
+              <values.User>
+                <fname>Leonard</fname>
+                <lname>Hernandez</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>85711</zip>
+                <id>14</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>15</long>
+              <values.User>
+                <fname>Melody</fname>
+                <lname>Roberson</lname>
+                <age>53</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>94043</zip>
+                <id>15</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>16</long>
+              <values.User>
+                <fname>Gregory</fname>
+                <lname>Newton</lname>
+                <age>23</age>
+                <gender>M</gender>
+                <occupation>writer</occupation>
+                <zip>32067</zip>
+                <id>16</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>17</long>
+              <values.User>
+                <fname>Oliver</fname>
+                <lname>George</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>43537</zip>
+                <id>17</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>18</long>
+              <values.User>
+                <fname>Jenna</fname>
+                <lname>Parker</lname>
+                <age>33</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>15213</zip>
+                <id>18</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>19</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>19</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>20</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>20</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>21</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>21</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>33</long>
+              <values.User>
+                <fname>Leonard</fname>
+                <lname>Hernandez</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>85711</zip>
+                <id>33</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>34</long>
+              <values.User>
+                <fname>Melody</fname>
+                <lname>Roberson</lname>
+                <age>53</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>94043</zip>
+                <id>34</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>35</long>
+              <values.User>
+                <fname>Gregory</fname>
+                <lname>Newton</lname>
+                <age>23</age>
+                <gender>M</gender>
+                <occupation>writer</occupation>
+                <zip>32067</zip>
+                <id>35</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>36</long>
+              <values.User>
+                <fname>Oliver</fname>
+                <lname>George</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>43537</zip>
+                <id>36</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>37</long>
+              <values.User>
+                <fname>Jenna</fname>
+                <lname>Parker</lname>
+                <age>33</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>15213</zip>
+                <id>37</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>38</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>38</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>39</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>39</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>40</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>40</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>52</long>
+              <values.User>
+                <fname>Leonard</fname>
+                <lname>Hernandez</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>85711</zip>
+                <id>52</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>53</long>
+              <values.User>
+                <fname>Melody</fname>
+                <lname>Roberson</lname>
+                <age>53</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>94043</zip>
+                <id>53</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>54</long>
+              <values.User>
+                <fname>Gregory</fname>
+                <lname>Newton</lname>
+                <age>23</age>
+                <gender>M</gender>
+                <occupation>writer</occupation>
+                <zip>32067</zip>
+                <id>54</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>55</long>
+              <values.User>
+                <fname>Oliver</fname>
+                <lname>George</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>43537</zip>
+                <id>55</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>56</long>
+              <values.User>
+                <fname>Jenna</fname>
+                <lname>Parker</lname>
+                <age>33</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>15213</zip>
+                <id>56</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>57</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>57</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>58</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>58</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>59</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>59</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>61</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>61</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>62</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>62</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>63</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>63</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <long>0</long>
+              <values.Movie>
+                <movieid>0</movieid>
+                <title>I am the Legend</title>
+                <releasedate>25/09/2009</releasedate>
+                <url>http://www.imbd.com/Legend</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>3</long>
+              <values.Movie>
+                <movieid>3</movieid>
+                <title>Toy Story (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>4</long>
+              <values.Movie>
+                <movieid>4</movieid>
+                <title>GoldenEye (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>5</long>
+              <values.Movie>
+                <movieid>5</movieid>
+                <title>Four Rooms (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>6</long>
+              <values.Movie>
+                <movieid>6</movieid>
+                <title>Get Shorty (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>7</long>
+              <values.Movie>
+                <movieid>7</movieid>
+                <title>Copycat (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>8</long>
+              <values.Movie>
+                <movieid>8</movieid>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>9</long>
+              <values.Movie>
+                <movieid>9</movieid>
+                <title>Toy Story (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>10</long>
+              <values.Movie>
+                <movieid>10</movieid>
+                <title>GoldenEye (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>11</long>
+              <values.Movie>
+                <movieid>11</movieid>
+                <title>Four Rooms (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>12</long>
+              <values.Movie>
+                <movieid>12</movieid>
+                <title>Get Shorty (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>13</long>
+              <values.Movie>
+                <movieid>13</movieid>
+                <title>Copycat (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>14</long>
+              <values.Movie>
+                <movieid>14</movieid>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>15</long>
+              <values.Movie>
+                <movieid>15</movieid>
+                <title>Twelve Monkeys (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Twelve%20Monkeys%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>16</long>
+              <values.Movie>
+                <movieid>16</movieid>
+                <title>Babe (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Babe%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>17</long>
+              <values.Movie>
+                <movieid>17</movieid>
+                <title>Dead Man Walking (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Dead%20Man%20Walking%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>18</long>
+              <values.Movie>
+                <movieid>18</movieid>
+                <title>Richard III (1995)</title>
+                <releasedate>22-Jan-1996</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Richard%20III%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>19</long>
+              <values.Movie>
+                <movieid>19</movieid>
+                <title>I am the Legend</title>
+                <releasedate>25/09/2009</releasedate>
+                <url>http://www.imbd.com/Legend</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>22</long>
+              <values.Movie>
+                <movieid>22</movieid>
+                <title>Toy Story (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>23</long>
+              <values.Movie>
+                <movieid>23</movieid>
+                <title>GoldenEye (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>24</long>
+              <values.Movie>
+                <movieid>24</movieid>
+                <title>Four Rooms (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>25</long>
+              <values.Movie>
+                <movieid>25</movieid>
+                <title>Get Shorty (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>26</long>
+              <values.Movie>
+                <movieid>26</movieid>
+                <title>Copycat (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>27</long>
+              <values.Movie>
+                <movieid>27</movieid>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>28</long>
+              <values.Movie>
+                <movieid>28</movieid>
+                <title>Toy Story (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>29</long>
+              <values.Movie>
+                <movieid>29</movieid>
+                <title>GoldenEye (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>30</long>
+              <values.Movie>
+                <movieid>30</movieid>
+                <title>Four Rooms (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>31</long>
+              <values.Movie>
+                <movieid>31</movieid>
+                <title>Get Shorty (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>32</long>
+              <values.Movie>
+                <movieid>32</movieid>
+                <title>Copycat (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>33</long>
+              <values.Movie>
+                <movieid>33</movieid>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>34</long>
+              <values.Movie>
+                <movieid>34</movieid>
+                <title>Twelve Monkeys (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Twelve%20Monkeys%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>35</long>
+              <values.Movie>
+                <movieid>35</movieid>
+                <title>Babe (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Babe%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>36</long>
+              <values.Movie>
+                <movieid>36</movieid>
+                <title>Dead Man Walking (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Dead%20Man%20Walking%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>37</long>
+              <values.Movie>
+                <movieid>37</movieid>
+                <title>Richard III (1995)</title>
+                <releasedate>22-Jan-1996</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Richard%20III%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>38</long>
+              <values.Movie>
+                <movieid>38</movieid>
+                <title>I am the Legend</title>
+                <releasedate>25/09/2009</releasedate>
+                <url>http://www.imbd.com/Legend</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>41</long>
+              <values.Movie>
+                <movieid>41</movieid>
+                <title>Toy Story (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>42</long>
+              <values.Movie>
+                <movieid>42</movieid>
+                <title>GoldenEye (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>43</long>
+              <values.Movie>
+                <movieid>43</movieid>
+                <title>Four Rooms (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>44</long>
+              <values.Movie>
+                <movieid>44</movieid>
+                <title>Get Shorty (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>45</long>
+              <values.Movie>
+                <movieid>45</movieid>
+                <title>Copycat (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>46</long>
+              <values.Movie>
+                <movieid>46</movieid>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>47</long>
+              <values.Movie>
+                <movieid>47</movieid>
+                <title>Toy Story (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>48</long>
+              <values.Movie>
+                <movieid>48</movieid>
+                <title>GoldenEye (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>49</long>
+              <values.Movie>
+                <movieid>49</movieid>
+                <title>Four Rooms (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>50</long>
+              <values.Movie>
+                <movieid>50</movieid>
+                <title>Get Shorty (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>51</long>
+              <values.Movie>
+                <movieid>51</movieid>
+                <title>Copycat (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>52</long>
+              <values.Movie>
+                <movieid>52</movieid>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>53</long>
+              <values.Movie>
+                <movieid>53</movieid>
+                <title>Twelve Monkeys (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Twelve%20Monkeys%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>54</long>
+              <values.Movie>
+                <movieid>54</movieid>
+                <title>Babe (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Babe%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>55</long>
+              <values.Movie>
+                <movieid>55</movieid>
+                <title>Dead Man Walking (1995)</title>
+                <releasedate>01-Jan-1995</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Dead%20Man%20Walking%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>56</long>
+              <values.Movie>
+                <movieid>56</movieid>
+                <title>Richard III (1995)</title>
+                <releasedate>22-Jan-1996</releasedate>
+                <url>http://us.imdb.com/M/title-exact?Richard%20III%20(1995)</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>57</long>
+              <values.Movie>
+                <movieid>57</movieid>
+                <title>I am the Legend</title>
+                <releasedate>25/09/2009</releasedate>
+                <url>http://www.imbd.com/Legend</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>60</long>
+              <values.Movie>
+                <movieid>60</movieid>
+                <title>I am the Legend</title>
+                <releasedate>25/09/2009</releasedate>
+                <url>http://www.imbd.com/Legend</url>
+              </values.Movie>
+            </entry>
+            <entry>
+              <long>61</long>
+              <values.Movie>
+                <movieid>61</movieid>
+                <title>I am the Legend</title>
+                <releasedate>25/09/2009</releasedate>
+                <url>http://www.imbd.com/Legend</url>
+              </values.Movie>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <long>1</long>
+              <values.Rating>
+                <userid>1</userid>
+                <itemid>10</itemid>
+                <rating>3</rating>
+                <timestamp>887431883</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>2</long>
+              <values.Rating>
+                <userid>2</userid>
+                <itemid>10</itemid>
+                <rating>5</rating>
+                <timestamp>888552084</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>3</long>
+              <values.Rating>
+                <userid>3</userid>
+                <itemid>8</itemid>
+                <rating>5</rating>
+                <timestamp>889237455</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>4</long>
+              <values.Rating>
+                <userid>4</userid>
+                <itemid>8</itemid>
+                <rating>3</rating>
+                <timestamp>892001445</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>5</long>
+              <values.Rating>
+                <userid>5</userid>
+                <itemid>9</itemid>
+                <rating>-5</rating>
+                <timestamp>878844423</timestamp>
+                <usersRatings />
+              </values.Rating>
+            </entry>
+            <entry>
+              <long>6</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>6</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>7</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>7</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>8</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>8</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>20</long>
+              <values.User>
+                <fname>Leonard</fname>
+                <lname>Hernandez</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>85711</zip>
+                <id>20</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>21</long>
+              <values.User>
+                <fname>Melody</fname>
+                <lname>Roberson</lname>
+                <age>53</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>94043</zip>
+                <id>21</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>22</long>
+              <values.User>
+                <fname>Gregory</fname>
+                <lname>Newton</lname>
+                <age>23</age>
+                <gender>M</gender>
+                <occupation>writer</occupation>
+                <zip>32067</zip>
+                <id>22</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>23</long>
+              <values.User>
+                <fname>Oliver</fname>
+                <lname>George</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>43537</zip>
+                <id>23</id>
+                <ratingsUser ></ratingsUser>
+              </values.User>
+            </entry>
+            <entry>
+              <long>24</long>
+              <values.User>
+                <fname>Jenna</fname>
+                <lname>Parker</lname>
+                <age>33</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>15213</zip>
+                <id>24</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>25</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>25</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>26</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>26</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>27</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>27</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>39</long>
+              <values.User>
+                <fname>Leonard</fname>
+                <lname>Hernandez</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>85711</zip>
+                <id>39</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>40</long>
+              <values.User>
+                <fname>Melody</fname>
+                <lname>Roberson</lname>
+                <age>53</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>94043</zip>
+                <id>40</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>41</long>
+              <values.User>
+                <fname>Gregory</fname>
+                <lname>Newton</lname>
+                <age>23</age>
+                <gender>M</gender>
+                <occupation>writer</occupation>
+                <zip>32067</zip>
+                <id>41</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>42</long>
+              <values.User>
+                <fname>Oliver</fname>
+                <lname>George</lname>
+                <age>24</age>
+                <gender>M</gender>
+                <occupation>technician</occupation>
+                <zip>43537</zip>
+                <id>42</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>43</long>
+              <values.User>
+                <fname>Jenna</fname>
+                <lname>Parker</lname>
+                <age>33</age>
+                <gender>F</gender>
+                <occupation>other</occupation>
+                <zip>15213</zip>
+                <id>43</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>44</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>44</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>45</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>45</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>46</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>46</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>58</long>
+              <values.User>
+                <fname>Mozeeb</fname>
+                <lname>Abdulha</lname>
+                <age>20</age>
+                <gender>mozeeb@gmail.com</gender>
+                <occupation>Student</occupation>
+                <zip>21521</zip>
+                <id>58</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>59</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>jakonis@gmail.com</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>59</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+            <entry>
+              <long>60</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> wilczek@gmail.com</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>60</id>
+                <ratingsUser />
+              </values.User>
+            </entry>
+          </map>
+          <null />
+          <null />
+          <null />
+          <null />
+          <null />
+        </elementData>
+      </default>
+    </vector>
+  </java.util.Stack>
+</object-stream>
