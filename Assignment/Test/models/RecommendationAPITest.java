@@ -8,6 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import values.Movie;
 import values.User;
 import Recommendation.RecommendationAPI;
 
@@ -38,7 +39,21 @@ public void testUser()
   {
 	recommendation.addUser("Bartek", "Mrowicki",19 ," M", "Cathering Assistant" ,20003);
     recommendation.removeUser(Long.valueOf(3));
-  }  
+  }
+
+
+@SuppressWarnings("static-access")
+@Test
+public void testMovie()
+{
+    Movie legend = new Movie("I am Legend", "12/10/2009","http://www.imbd.com");
+
+	recommendation.addMovie("I am Legend", "12/10/2009","http://www.imbd.com");
+	
+	 assertEquals (legend, recommendation.getMoviesByTitle("I am Legend"));
+	
+}
+
 
 
 

@@ -30,6 +30,7 @@ public class RecommendationAPI {
   private static Map<Long, Movie> movies = new HashMap<>();
   private static Map<Long, Rating> ratings = new HashMap<>();
   private static Map<String, Movie> movietitle = new HashMap<>();
+  private static Map<String, Movie> moviedate = new HashMap<>();
   
   public RecommendationAPI()
   {
@@ -49,6 +50,7 @@ public RecommendationAPI(Serializer serializer)
 	 Movie movie = new Movie(title,releasedate,url);
 	 movies.put(movie.movieid, movie);
 	 movietitle.put(title,movie);
+	 moviedate.put(releasedate,movie);
 	 return movie;
 	
   }
@@ -109,7 +111,7 @@ public RecommendationAPI(Serializer serializer)
   public static Movie getMoviesByDate(String date)
   {
 	  
-	  return movietitle.get(date);
+	  return moviedate.get(date);
  
   }
   

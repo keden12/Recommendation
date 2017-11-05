@@ -6,8 +6,8 @@
         <capacityIncrement>0</capacityIncrement>
         <elementCount>5</elementCount>
         <elementData>
-          <long>12</long>
-          <long>15</long>
+          <long>16</long>
+          <long>19</long>
           <map>
             <entry>
               <long>0</long>
@@ -152,6 +152,45 @@
                 <ratingsUser/>
               </values.User>
             </entry>
+            <entry>
+              <long>13</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> M</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>13</id>
+                <ratingsUser/>
+              </values.User>
+            </entry>
+            <entry>
+              <long>14</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>M</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>14</id>
+                <ratingsUser/>
+              </values.User>
+            </entry>
+            <entry>
+              <long>15</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> M</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>15</id>
+                <ratingsUser/>
+              </values.User>
+            </entry>
           </map>
           <map>
             <entry>
@@ -254,6 +293,15 @@
               </values.Movie>
             </entry>
             <entry>
+              <long>12</long>
+              <values.Movie>
+                <movieid>12</movieid>
+                <title>I am the Legend</title>
+                <releasedate>25/09/2009</releasedate>
+                <url>http://www.imbd.com/Legend</url>
+              </values.Movie>
+            </entry>
+            <entry>
               <long>14</long>
               <values.Movie>
                 <movieid>14</movieid>
@@ -262,8 +310,30 @@
                 <url>http://www.imbd.com/Legend</url>
               </values.Movie>
             </entry>
+            <entry>
+              <long>18</long>
+              <values.Movie>
+                <movieid>18</movieid>
+                <title>I am Legend</title>
+                <releasedate>12/10/2009</releasedate>
+                <url>http://www.imbd.com</url>
+              </values.Movie>
+            </entry>
           </map>
           <map>
+            <entry>
+              <long>16</long>
+              <values.User>
+                <fname>Alanas</fname>
+                <lname>Jakonis</lname>
+                <age>20</age>
+                <gender>M</gender>
+                <occupation>Bodybuilder</occupation>
+                <zip>24133</zip>
+                <id>16</id>
+                <ratingsUser/>
+              </values.User>
+            </entry>
             <entry>
               <long>1</long>
               <values.Rating>
@@ -273,6 +343,19 @@
                 <timestamp>887431883</timestamp>
                 <usersRatings/>
               </values.Rating>
+            </entry>
+            <entry>
+              <long>17</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> M</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>17</id>
+                <ratingsUser/>
+              </values.User>
             </entry>
             <entry>
               <long>2</long>
@@ -350,6 +433,19 @@
                 <occupation>Cathering Assistant</occupation>
                 <zip>20003</zip>
                 <id>13</id>
+                <ratingsUser/>
+              </values.User>
+            </entry>
+            <entry>
+              <long>15</long>
+              <values.User>
+                <fname>Bartek</fname>
+                <lname>Mrowicki</lname>
+                <age>19</age>
+                <gender> M</gender>
+                <occupation>Cathering Assistant</occupation>
+                <zip>20003</zip>
+                <id>15</id>
                 <ratingsUser/>
               </values.User>
             </entry>
